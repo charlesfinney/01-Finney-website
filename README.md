@@ -35,12 +35,18 @@
  * Igor Turbin 
  #### Awards
  * New Orleans - Speednola Hackathon 2017 first prize Shelby White  
-   * Vienna - [Coded Cultures]()   
+ * Kiev - Ethereum Workshop Organizer
+ * Vienna - [Coded Cultures]()   
  * Saigon - Bitfil festival Organizer
+ * Hong Kong - Bitcoin Workshop
+ * Bangkok - Bitcoin Event
+ * New York - Coding Summer camp organizer 
+ * MIT - Prof Greenspun summer coding course  
  
 
    ![Speednola Hackathon](https://github.com/charlesfinney/Finney-website/blob/master/site_images/WINNING%20(1).JPG)  
-     
+   
+   ![Kiev - Ethereum Workshop]()
 ![Vienna Coded Cultures]()  
   
 ![Bitfilm Festival]()  
