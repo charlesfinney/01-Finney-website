@@ -12,21 +12,22 @@
 * Bitcoin Workshop
 * Laissez-Passez -crypto art festival
 * Hacker/Pirate school
-    * course tek literacy
+    * Course Tech literacy
         * Command line / fman
         * GitHub / GitLab
         * html / editor
     * Programming
         * fundamentals
-        * Ethereum
-            * Solidity 
-        * neo4j
-            * Cypher
-        * JavaScript
+        * Smart Conracts
+        * Graph Databases
         
  #### Languages 
  * bitcoin
- * ethereum
+ * Ethereum
+   * Solidity 
+ * neo4j
+   * Cypher
+ * JavaScript
  #### Mentors
  * Bogdan Lisovich
  * Graham Seibert
@@ -34,5 +35,5 @@
  * Igor Turbin 
  #### Awards
    * Speednola Hackathon 2017 first prize Shelby White
-   
+   ![Speednola Hackathon]()
    
