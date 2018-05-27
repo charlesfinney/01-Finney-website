@@ -1,6 +1,7 @@
 # Personal website
-## full stack blockchain developer 
-## resume outlining my programing achievments and education
+## Charles Finney
+### full stack blockchain developer 
+<sup>_resume outlining my programing achievments and education_</sup>
 #### five coding projects 
 * ethereal faust
 * BTC ATM for Russia
