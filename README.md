@@ -33,22 +33,41 @@
  * Graham Seibert
  * Mary Davis
  * Igor Turbin 
- #### Awards
- * New Orleans - Speednola Hackathon 2017 first prize Shelby White  
- * Kiev - Ethereum Workshop Organizer
- * Vienna - [Coded Cultures]()   
- * Saigon - Bitfil festival Organizer
- * Hong Kong - Bitcoin Workshop
- * Bangkok - Bitcoin Event
- * New York - Coding Summer camp organizer 
- * MIT - Prof Greenspun summer coding course  
- 
-
+#### Awards
+* New Orleans - Speednola Hackathon 2017 first prize Shelby White  
+* Kiev - Ethereum Workshop Organizer
+* Vienna - [Coded Cultures]()   
+* Jakarta - Bitcoin Event Organizer
+* Saigon - Bitfil festival Organizer  
+* Bangkok - Bitcoin Event Organizer
+* Hong Kong - Bitcoin Workshop Organizer
+* New York - Coding Summer camp Organizer 
+* MIT - Prof Greenspun summer coding course perticipant  
+* Vienna Cybernetic conference 
+* [CASE Almaty Kazahstan](https://youtu.be/BsJHKsAq1oo?t=11m)
+* UNDP Vienna - 
+* Cambridge - Economics 
    ![Speednola Hackathon](https://github.com/charlesfinney/Finney-website/blob/master/site_images/WINNING%20(1).JPG)  
    
-   ![Kiev - Ethereum Workshop]()
-![Vienna Coded Cultures]()  
+   ![Kiev - Ethereum Workshop](https://github.com/charlesfinney/Finney-website/blob/master/site_images/bitcoinKiev.jpg)
+   ![Kiev - Ethereum Workshop](https://github.com/charlesfinney/Finney-website/blob/master/site_images/mekievopera.jpg)
+     
+![Vienna Coded Cultures](https://github.com/charlesfinney/Finney-website/blob/master/site_images/)  
+    
+![Jakarta - ](https://github.com/charlesfinney/Finney-website/blob/master/site_images/)
+
+![Saigon - Bitfilm Festival](https://github.com/charlesfinney/Finney-website/blob/master/site_images/2-Vietnam.jpg)  
   
-![Bitfilm Festival]()  
-  
-   
+![Saigon](https://github.com/charlesfinney/Finney-website/blob/master/site_images/)  
+![Saigon](https://github.com/charlesfinney/Finney-website/blob/master/site_images/SaigonLobby.jpg) 
+![Bangkok](https://github.com/charlesfinney/Finney-website/blob/master/site_images/)
+![Hong Kong](https://github.com/charlesfinney/Finney-website/blob/master/site_images/hkfinney.jpg)
+![Hong Kong](https://github.com/charlesfinney/Finney-website/blob/master/site_images/Finney%20Hong%20Kong%20hands.jpg)  
+![New York](https://github.com/charlesfinney/Finney-website/blob/master/site_images/have-briefcase-will-travel.jpg)  
+![MIT ](https://github.com/charlesfinney/Finney-website/blob/master/site_images/0mitdomeself-large.jpg)  
+![Vienna Cybernetic conference](https://github.com/charlesfinney/Finney-website/blob/master/site_images/Vienna-bar.jpg) 
+![CASE Kaz](https://github.com/charlesfinney/Finney-website/blob/master/site_images/finneykazahstan.jpg)
+![Cambridge - Economics](https://github.com/charlesfinney/Finney-website/blob/master/site_images/punting2.jpg)
+![Cambridge - Economics](https://github.com/charlesfinney/Finney-website/blob/master/site_images/punting3.jpg)
+![MMA - Graduation](https://github.com/charlesfinney/Finney-website/blob/master/site_images/Graduation-day.jpg)
+
