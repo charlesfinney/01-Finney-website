@@ -1,5 +1,5 @@
-# Personal website
-## Charles Finney
+## Personal website
+# Charles Finney
 ### full stack blockchain developer 
 <sup>_resume outlining my programing achievments and education_</sup>
 #### five coding projects 
@@ -24,15 +24,15 @@
             * Cypher
         * JavaScript
         
-   #### Languages 
-   * bitcoin
-   * ethereum
-   #### Mentors
-   * Bogdan Lisovich
-   * Graham Seibert
-   * Mary Davis
-   * Igor Turbin 
-   #### Awards
+ #### Languages 
+ * bitcoin
+ * ethereum
+ #### Mentors
+ * Bogdan Lisovich
+ * Graham Seibert
+ * Mary Davis
+ * Igor Turbin 
+ #### Awards
    * Speednola Hackathon 2017 first prize Shelby White
    
    
