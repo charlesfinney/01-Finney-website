@@ -34,6 +34,7 @@
  * Mary Davis
  * Igor Turbin 
  #### Awards
-   * Speednola Hackathon 2017 first prize Shelby White
+   * Speednola Hackathon 2017 first prize Shelby White  
+     
    ![Speednola Hackathon]()
    
