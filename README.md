@@ -5,12 +5,13 @@ https://www.hascode.com/snippets/#Git_Syncing_with_forked_Repository
 # Charles Finney
 ### full stack blockchain developer 
 <sup>_resume outlining my programing achievments and education_</sup>
-#### five coding projects 
+#### top five software projects 
 * ethereal faust
 * BTC ATM for Russia
 * something cool 
 * sothething cooler
 * coolest
+Development team Tim Roosevelt, Anatoly Borov 
 #### Projects
 * Bitcoin Workshop
 * Laissez-Passez -crypto art festival
