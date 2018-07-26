@@ -36,6 +36,10 @@ address {
 	height: 197px;
 	margin-bottom: 20px;
 }
+.zoom {
+	width: 50px;
+
+}
 
 header > h1,
 section > h1 {
