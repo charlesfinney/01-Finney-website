@@ -42,7 +42,7 @@ address {
 }
 
 header > h1,
-section > h1 {
+section > h1, h2 {
 	color: #27A822;
 }
 
@@ -50,6 +50,12 @@ header > h1 {
 	line-height: 100%;
 	font-size: 250%;
 	margin-bottom: 20px;
+}
+header > h2 {
+	line-height: 100%;
+	font-size: 140%;
+	margin-bottom: 20px;
+	text-transform: uppercase;
 }
 
 .container > header p,
