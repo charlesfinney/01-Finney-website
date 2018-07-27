@@ -1,0 +1,2822 @@
+
+
+
+
+  
+  
+  -->
+  
+  
+   Distillery: A Custom Software Design and Development Company 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+ -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N3ZSDN');
+  
+  
+  
+  
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-80459703-1', 'auto');
+    ga('require', 'GTM-PDT7PX3');
+    ga('send', 'pageview');
+  
+  
+  
+    window._mfq = window._mfq || [];
+    (function() {
+      var mf = document.createElement("script");
+      mf.type = "text/javascript";
+      mf.async = true;
+      mf.src = "//cdn.mouseflow.com/projects/a9bd6d6f-d15a-4b0f-ad0f-b674fe7f6e0c.js";
+      document.getElementsByTagName("head")[0].appendChild(mf);
+    })();
+  
+  
+  
+  
+    window.cssIsLoaded = 0;
+
+    function cssLoaded() {
+      window.cssIsLoaded = 1;
+    }
+    var resourcesSemaphore = 0;
+
+    function checkIfSVGReady() {
+      resourcesSemaphore++;
+
+      if (resourcesSemaphore == 3) {}
+    }
+
+    var hideSVGStyle = document.createElement('style');
+    hideSVGStyle.innerHTML = 'use, .carousel { display: none; }';
+    document.head.appendChild(hideSVGStyle);
+  
+  
+    .jumbotron-home.fade-in .jumbotron-home__title {
+
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-delay: 0s;
+      animation-name: fade-in-down-animation;
+    }
+
+    .jumbotron-home.fade-in .jumbotron-home__mobile-title {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-delay: 0s;
+      animation-name: fade-in-down-animation;
+    }
+
+    .jumbotron-home.fade-in .jumbotron-home__label {
+      animation-duration: 0.75s;
+      animation-fill-mode: both;
+      animation-name: fade-in-down-animation;
+    }
+
+    .jumbotron-home.fade-in .jumbotron-home__subtitle {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-name: fade-in-down-animation;
+      animation-delay: 0.25s;
+    }
+
+    .jumbotron-home.fade-in .jumbotron-home__text {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-name: fade-in-down-animation;
+      animation-delay: 0.5s;
+    }
+
+    .jumbotron-home.fade-in .scroll-icon {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-name: fade-in-down-animation;
+      animation-delay: 0.75s;
+    }
+  
+  
+  
+    video {
+      display: inline-block
+    }
+
+    .cd-section__wrapper--home {
+      -webkit-box-direction: normal
+    }
+
+    html {
+      font-family: sans-serif;
+      line-height: 1.15;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%
+    }
+
+    header,
+    nav,
+    section {
+      display: block
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: .67em 0
+    }
+
+    a {
+      background-color: transparent;
+      -webkit-text-decoration-skip: objects
+    }
+
+    img {
+      border-style: none
+    }
+
+    svg:not(:root) {
+      overflow: hidden
+    }
+
+    .btn,
+    .icon-menu {
+      text-transform: uppercase
+    }
+
+    .btn-menu-icon,
+    .link,
+    .link-button,
+    :focus {
+      outline: 0
+    }
+
+    ::-webkit-file-upload-button {
+      -webkit-appearance: button;
+      font: inherit
+    }
+
+    body,
+    html {
+      min-height: 100%;
+      box-sizing: border-box
+    }
+
+    .hidden {
+      display: none
+    }
+
+    #home-section-1,
+    body {
+      background-color: #f4f4f4
+    }
+
+    @-webkit-keyframes fadeIn {
+      0% {
+        opacity: 0;
+        visibility: hidden
+      }
+      100% {
+        opacity: 1;
+        visibility: visible
+      }
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        visibility: hidden
+      }
+      100% {
+        opacity: 1;
+        visibility: visible
+      }
+    }
+
+    .hidden {
+      visibility: hidden
+    }
+
+    @-webkit-keyframes fade-in-down-animation {
+      0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -10%, 0);
+        transform: translate3d(0, -10%, 0)
+      }
+      100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+      }
+    }
+
+    @keyframes fade-in-down-animation {
+      0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -10%, 0);
+        transform: translate3d(0, -10%, 0)
+      }
+      100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+      }
+    }
+
+    @-webkit-keyframes scroll-icon-animation {
+      0% {
+        opacity: 0;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+      }
+      40% {
+        opacity: 1
+      }
+      80% {
+        opacity: 0;
+        -webkit-transform: translate(0, 10px);
+        transform: translate(0, 10px)
+      }
+      100% {
+        opacity: 0
+      }
+    }
+
+    @keyframes scroll-icon-animation {
+      0% {
+        opacity: 0;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+      }
+      40% {
+        opacity: 1
+      }
+      80% {
+        opacity: 0;
+        -webkit-transform: translate(0, 10px);
+        transform: translate(0, 10px)
+      }
+      100% {
+        opacity: 0
+      }
+    }
+
+    @-webkit-keyframes expandline-40-animation {
+      0% {
+        width: 0%
+      }
+      50% {
+        width: 20%
+      }
+      100% {
+        width: 40%
+      }
+    }
+
+    @keyframes expandline-40-animation {
+      0% {
+        width: 0%
+      }
+      50% {
+        width: 20%
+      }
+      100% {
+        width: 40%
+      }
+    }
+
+    @-webkit-keyframes scale-from-center-animation {
+      0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0)
+      }
+      50% {
+        -webkit-transform: scaleX(.5);
+        transform: scaleX(.5)
+      }
+      100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+      }
+    }
+
+    @keyframes scale-from-center-animation {
+      0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0)
+      }
+      50% {
+        -webkit-transform: scaleX(.5);
+        transform: scaleX(.5)
+      }
+      100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+      }
+    }
+
+    body {
+      font-family: sans-serif;
+      color: #fff;
+      margin: 0;
+      overflow-y: auto;
+      overflow-x: hidden !important;
+      display: block !important;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      body {
+        background-color: #f4f4f4 !important
+      }
+    }
+
+    @media (max-width:766px) {
+      body {
+        background-color: #f4f4f4 !important
+      }
+    }
+
+    html {
+      position: relative
+    }
+
+    a {
+      color: inherit
+    }
+
+    *,
+    :after,
+    :before {
+      box-sizing: inherit
+    }
+
+    .btn,
+    .icon-menu {
+      font-family: "VerLag Book A", "VerLag Book B", "Century Gothic", Verdana, Arial, sans-serif;
+      text-decoration: none
+    }
+
+    .right-float {
+      float: right
+    }
+
+    .link {
+      text-decoration: none;
+      border: none
+    }
+
+    a:-webkit-any-link {
+      text-decoration: none
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0
+      }
+      100% {
+        opacity: 1
+      }
+    }
+
+    @-webkit-keyframes scrollDown {
+      0% {
+        opacity: 0;
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px)
+      }
+      20%,
+      80% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+      }
+      100% {
+        opacity: 0;
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px)
+      }
+    }
+
+    @keyframes scrollDown {
+      0% {
+        opacity: 0;
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px)
+      }
+      20%,
+      80% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+      }
+      100% {
+        opacity: 0;
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px)
+      }
+    }
+
+    .animation-element_fade-in {
+      -webkit-animation-duration: .5s;
+      animation-duration: .5s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-name: fadeIn;
+      animation-name: fadeIn
+    }
+
+    .animation-element_scroll-down {
+      -webkit-animation: scrollDown 2s infinite;
+      animation: scrollDown 2s infinite
+    }
+
+    .hide {
+      display: none !important
+    }
+
+    .transparent {
+      opacity: 0 !important
+    }
+
+    .desktop-br,
+    .mobile-br,
+    .tablet-br {
+      display: none
+    }
+
+    @media (min-width:1024px) {
+      .desktop-br {
+        display: inline-block
+      }
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .tablet-br {
+        display: inline-block
+      }
+    }
+
+    @media (max-width:766px) {
+      .mobile-br {
+        display: inline-block
+      }
+    }
+
+    .icon {
+      display: inline-block
+    }
+
+    svg.icon {
+      overflow: visible
+    }
+
+    .icon-menu {
+      float: right;
+      margin-top: 3px;
+      line-height: 16px;
+      font-size: 16px;
+      letter-spacing: 1.5px;
+      font-style: normal;
+      color: #6a5967;
+      display: inline-block;
+      padding: 6px 0 4px;
+      border-top: 1px solid #6a5967;
+      border-bottom: 1px solid #6a5967;
+      border-left: 1px solid transparent;
+      border-right: 1px solid transparent
+    }
+
+    @media (max-width:766px) {
+      .icon-menu {
+        margin-top: .94vw;
+        padding: 1.875vw 0 1.25vw
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .icon-menu {
+        margin-top: .53vw;
+        line-height: 2.8vw;
+        font-size: 2.8vw;
+        padding: 1vw 0 .7vw
+      }
+    }
+
+    .icon-logo {
+      width: 139px;
+      height: 32px
+    }
+
+    .icon-logo .st0 {
+      fill: transparent;
+      stroke: #601d57;
+      stroke-miterlimit: 10
+    }
+
+    .icon-logo .st1 {
+      fill: transparent;
+      stroke: #904963;
+      stroke-miterlimit: 10
+    }
+
+    .icon-logo .st2 {
+      fill: transparent;
+      stroke: #bd6e60;
+      stroke-miterlimit: 10
+    }
+
+    .icon-logo .st3 {
+      fill: transparent;
+      stroke: #d69a50;
+      stroke-miterlimit: 10
+    }
+
+    @media (min-width:950px) {
+      .icon-logo {
+        width: 26px;
+        height: 40px
+      }
+    }
+
+    @media (min-width:767px) {
+      .icon-logo {
+        width: 26px;
+        height: 40px
+      }
+    }
+
+    @media (max-width:767px) {
+      .icon-logo {
+        width: 6.6vw;
+        height: 8.8vw
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .icon-logo {
+        width: 3.7vw;
+        height: 4.93vw
+      }
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 19px 45px;
+      border: 1px solid #d89b59;
+      color: #d89b59;
+      font-size: 16px;
+      letter-spacing: 1.2px
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .btn {
+        padding: 19px 30px
+      }
+    }
+
+    @media (max-width:766px) {
+      .btn {
+        padding: 19px 4.7vw
+      }
+    }
+
+    .background-video,
+    .background-video__wrapper {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      height: auto;
+      min-width: 100%;
+      min-height: 100%;
+      opacity: 1;
+      right: 0
+    }
+
+    .focus-features__header,
+    .jumbotron-home__title {
+      font-family: "VerLag Book A", "VerLag Book B", "Century Gothic", Verdana, Arial, sans-serif
+    }
+
+    .background-video {
+      width: 100%;
+      z-index: 1
+    }
+
+    @media (min-width:1024px) {
+      .background-video {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+        -o-object-fit: cover;
+        object-fit: cover
+      }
+      .background-video__wrapper {
+        background-size: cover
+      }
+    }
+
+    .background-video__wrapper {
+      width: auto;
+      z-index: -10;
+      overflow: hidden
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .background-video {
+        display: none
+      }
+      .background-video__wrapper {
+        position: absolute;
+        width: auto;
+        height: auto;
+        background-position: center center;
+        -o-object-fit: cover;
+        object-fit: cover;
+        background-size: cover;
+        background-image: url(assets/images/homeAssets/bg-tablet@2x.jpg)
+      }
+    }
+
+    @media (max-width:766px) {
+      .background-video {
+        display: none
+      }
+      .background-video__wrapper {
+        background-image: url(assets/images/homeAssets/bg-mobile@2x.jpg);
+        background-size: cover
+      }
+    }
+
+    @-moz-document url-prefix() {
+      .background-video {
+        opacity: 0;
+        transition: opacity .3s ease
+      }
+    }
+
+    @media (min-width:1024px) {
+      .cd-section {
+        padding-top: 80px;
+        margin-bottom: -80px;
+        display: block;
+        height: 100vh;
+        min-height: 700px
+      }
+      .cd-section--fullheight {
+        padding-top: 0
+      }
+    }
+
+    @media (max-width:766px) {
+      .cd-section {
+        top: 0;
+        left: 0;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        height: auto
+      }
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .cd-section {
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin: -1px 0;
+        position: relative;
+        overflow: hidden;
+        height: 780px
+      }
+      .cd-section--fullheight {
+        height: 100vh
+      }
+    }
+
+    @media (max-width:766px) {
+      .cd-section--fullheight {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 100vh
+      }
+    }
+
+    @media (min-width:1024px) {
+      .cd-section__wrapper {
+        visibility: visible;
+        height: calc(100vh - 80px);
+        background-color: #f4f4f4;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        top: 0;
+        left: 0;
+        width: 100%;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        min-height: 700px
+      }
+    }
+
+    .header,
+    .navigation-mobile-menu {
+      -webkit-backface-visibility: hidden
+    }
+
+    @media (max-width:766px) {
+      .cd-section__wrapper {
+        width: 100%;
+        height: auto
+      }
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .cd-section__wrapper {
+        width: 100%;
+        height: 780px;
+        margin: -2px 0
+      }
+    }
+
+    .cd-section__wrapper--home {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center
+    }
+
+    @media (min-width:1024px) {
+      .cd-section__wrapper--home {
+        height: 100vh
+      }
+    }
+
+    @media (max-width:766px) {
+      .cd-section__wrapper--home {
+        height: 546.5px
+      }
+    }
+
+    @media (min-width:1024px) {
+      .focus-features {
+        width: 1024px;
+        height: 100vh;
+        min-height: 750px;
+        margin: -100px auto auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+      }
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .focus-features {
+        width: 768px;
+        height: 100%;
+        padding: 79px 0 61px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+      }
+    }
+
+    @media (max-width:766px) {
+      .focus-features {
+        width: 100%;
+        height: auto;
+        margin: auto
+      }
+    }
+
+    .focus-features__header {
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center
+    }
+
+    @media (min-width:1024px) {
+      .focus-features__header {
+        padding-top: 100px
+      }
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .focus-features__header {
+        width: 778px;
+        padding-bottom: 41px
+      }
+    }
+
+    @media (max-width:766px) {
+      .focus-features__header {
+        padding-top: 42px;
+        padding-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto
+      }
+    }
+
+    .jumbotron-home {
+      width: 746px
+    }
+
+    @media (min-width:1024px) {
+      .jumbotron-home {
+        margin-bottom: 98px
+      }
+    }
+
+    @media (max-width:766px) {
+      .jumbotron-home {
+        width: 92%
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .jumbotron-home {
+        width: 75%
+      }
+    }
+
+    .jumbotron-home__header {
+      margin: 0
+    }
+
+    .jumbotron-home__title {
+      margin: 0;
+      opacity: 0;
+      color: #fff;
+      line-height: 71px;
+      text-align: center;
+      text-transform: uppercase
+    }
+
+    @media (min-width:1024px) {
+      .jumbotron-home__title {
+        font-weight: 400;
+        font-size: 54.6px;
+        letter-spacing: 3.6px;
+        white-space: nowrap;
+        margin-top: 10px;
+        margin-left: -3px
+      }
+    }
+
+    .jumbotron-home__subtitle,
+    .jumbotron-home__text {
+      font-family: "VerLag Book A", "VerLag Book B", "Century Gothic", Verdana, Arial, sans-serif
+    }
+
+    .jumbotron-home__title--home {
+      display: block
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .jumbotron-home__title--home {
+        font-size: 52px;
+        letter-spacing: 3.3px;
+        font-weight: 400;
+        margin-top: 8px;
+        margin-left: -1px
+      }
+    }
+
+    @media (max-width:766px) {
+      .jumbotron-home__title--home {
+        font-size: 6.5vw;
+        letter-spacing: .56vw;
+        line-height: normal;
+        font-weight: 400;
+        margin-top: 1.56vw;
+        white-space: nowrap
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .jumbotron-home__title--home {
+        font-size: 3.6vw;
+        letter-spacing: .387vw;
+        line-height: normal;
+        font-weight: 400;
+        margin-top: .88vw;
+        white-space: nowrap
+      }
+    }
+
+    .jumbotron-home__text {
+      opacity: 0;
+      color: #fff;
+      line-height: 34px;
+      text-align: center;
+      letter-spacing: 2.3px;
+      font-size: 23.4px;
+      font-weight: 300;
+      margin: 24px 10.5px 0
+    }
+
+    .jumbotron-home__label,
+    .jumbotron-home__subtitle {
+      opacity: 0;
+      overflow: hidden;
+      color: #d89b59;
+      text-align: center
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .jumbotron-home__text {
+        margin-left: 25.5px;
+        margin-right: 26.5px;
+        font-size: 22.2px;
+        letter-spacing: 2.2px;
+        margin-top: 21px
+      }
+    }
+
+    @media (max-width:766px) {
+      .jumbotron-home__text {
+        font-size: 4.3vw;
+        line-height: 1.48em;
+        margin-top: 10px;
+        letter-spacing: 1.4px;
+        margin-left: 0;
+        margin-right: 0
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .jumbotron-home__text {
+        font-size: 2.4vw;
+        line-height: 1.48em;
+        margin-top: 10px;
+        letter-spacing: 1.4px;
+        margin-left: 0;
+        margin-right: 0
+      }
+    }
+
+    .jumbotron-home__subtitle {
+      margin: 0;
+      font-size: 35px;
+      text-transform: uppercase;
+      letter-spacing: 2.5px
+    }
+
+    @media (min-width:1024px) {
+      .jumbotron-home__subtitle {
+        margin-top: 10px;
+        font-weight: 400;
+        white-space: nowrap;
+        letter-spacing: 3px;
+        margin-left: -2px
+      }
+    }
+
+    .jumbotron-home__label,
+    .scroll-icon {
+      font-family: "VerLag Book A", "VerLag Book B", "Century Gothic", Verdana, Arial, sans-serif
+    }
+
+    .jumbotron-home__label::after,
+    .jumbotron-home__label::before,
+    .jumbotron-home__subtitle::after {
+      border-bottom: 1px solid;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      content: ""
+    }
+
+    .jumbotron-home__subtitle::after {
+      display: block;
+      width: 100%;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      -webkit-animation-name: scale-from-center-animation;
+      animation-name: scale-from-center-animation;
+      -webkit-animation-delay: .5s;
+      animation-delay: .5s
+    }
+
+    @media (min-width:1024px) {
+      .jumbotron-home__subtitle::after {
+        margin-top: 38px
+      }
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .jumbotron-home__subtitle::after {
+        margin-top: 46.5px
+      }
+    }
+
+    .jumbotron-home__subtitle--home {
+      display: block
+    }
+
+    .jumbotron-home__subtitle--home::after {
+      display: block;
+      width: 100%;
+      border-bottom: 1px solid;
+      content: ""
+    }
+
+    @media (min-width:1024px) {
+      .jumbotron-home__subtitle--home::after {
+        margin-top: 23px
+      }
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .jumbotron-home__subtitle--home::after {
+        margin-top: 22px
+      }
+    }
+
+    @media (max-width:766px) {
+      .jumbotron-home__subtitle--home::after {
+        margin-top: 2.5vw;
+        border-bottom: 1px solid
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .jumbotron-home__subtitle--home::after {
+        margin-top: 1.4vw;
+        border-bottom: 1px solid
+      }
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .jumbotron-home__subtitle--home {
+        font-weight: 400;
+        margin-top: 7px;
+        font-size: 33px;
+        letter-spacing: 3.5px;
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: nowrap
+      }
+    }
+
+    @media (max-width:766px) {
+      .jumbotron-home__subtitle--home {
+        font-size: 4.3vw;
+        line-height: normal;
+        letter-spacing: .34vw;
+        font-weight: 400;
+        margin-top: 1.56vw
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .jumbotron-home__subtitle--home {
+        font-size: 2.4vw;
+        line-height: normal;
+        letter-spacing: .2vw;
+        font-weight: 400;
+        margin-top: .88vw
+      }
+    }
+
+    .jumbotron-home__label {
+      margin: 0;
+      font-size: 30px;
+      text-transform: uppercase;
+      letter-spacing: 3px
+    }
+
+    .jumbotron-home__label::after,
+    .jumbotron-home__label::before {
+      display: inline-block;
+      width: 40%;
+      margin: 0 5px 0 -55%;
+      vertical-align: super;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      -webkit-animation-name: expandline-40-animation;
+      animation-name: expandline-40-animation
+    }
+
+    .jumbotron-home__label:after {
+      margin: 0 -55% 0 5px
+    }
+
+    .jumbotron-home__label--home {
+      display: block;
+      font-weight: 400
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .jumbotron-home__label--home {
+        font-size: 28.2px;
+        letter-spacing: 2.8px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto
+      }
+    }
+
+    @media (max-width:766px) {
+      .jumbotron-home__label--home {
+        font-size: 6.8vw;
+        letter-spacing: 2.2px
+      }
+    }
+
+    .jumbotron-home__label--home::before {
+      margin: 0 9px -1px -55.5%
+    }
+
+    @media (max-width:766px) {
+      .jumbotron-home__label--home::before {
+        margin: 0 .94vw 0 -53.5%
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .jumbotron-home__label--home {
+        font-size: 3.9vw;
+        letter-spacing: 2.2px
+      }
+      .jumbotron-home__label--home::before {
+        margin: 0 .53vw 0 -53.5%
+      }
+    }
+
+    @media (max-width:766px) {
+      .jumbotron-home__label--home::after {
+        margin: 0 -52% 0 .3vw
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .jumbotron-home__label--home::after {
+        margin: 0 -52% 0 .176vw
+      }
+    }
+
+    .scroll-icon {
+      position: relative;
+      display: inline-block;
+      height: 68px;
+      width: 100%;
+      left: 0;
+      margin-bottom: 30px;
+      color: #d89b59;
+      font-size: 8px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 1px;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      -webkit-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-name: fade-in-down-animation;
+      animation-name: fade-in-down-animation;
+      -webkit-animation-delay: 1.5s;
+      animation-delay: 1.5s
+    }
+
+    .scroll-icon__text {
+      display: none
+    }
+
+    @media (max-width:766px) {
+      .scroll-icon {
+        position: absolute;
+        top: 82%;
+        margin-bottom: 0;
+        height: auto;
+        font-size: 2.5vw;
+        line-height: 5vw;
+        letter-spacing: .31vw
+      }
+      .scroll-icon__desktop-icon {
+        display: none
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .scroll-icon {
+        position: absolute;
+        top: 78%;
+        height: auto;
+        margin-bottom: 0;
+        font-size: 1.4vw;
+        line-height: 2.8vw;
+        letter-spacing: .176vw
+      }
+    }
+
+    .scroll-icon__desktop-icon {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 22px;
+      height: 38px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      box-sizing: border-box;
+      border: 2px solid #d89b59;
+      border-radius: 38px
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .scroll-icon {
+        position: absolute;
+        bottom: 40px
+      }
+      .scroll-icon__desktop-icon {
+        display: none
+      }
+    }
+
+    .scroll-icon__desktop-icon::before {
+      position: absolute;
+      top: 10px;
+      box-sizing: border-box;
+      width: 4px;
+      height: 4px;
+      margin-left: -2px;
+      background-color: #d89b59;
+      border-radius: 100%;
+      content: '';
+      -webkit-animation: scroll-icon-animation 2s infinite;
+      animation: scroll-icon-animation 2s infinite
+    }
+
+    .scroll-icon__mobile-icon {
+      position: absolute;
+      width: 16px;
+      height: 8px;
+      left: calc(50% - 8px);
+      top: 50px
+    }
+
+    @media (max-width:766px) {
+      .scroll-icon__mobile-icon {
+        top: 50px;
+        width: 5vw;
+        height: 2.5vw;
+        left: calc(50% - 2.5vw)
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .scroll-icon__mobile-icon {
+        top: 5.8vw;
+        width: 2.8vw;
+        height: 1.4vw;
+        left: calc(50% - 1.4vw)
+      }
+    }
+
+    @media (min-width:1024px) {
+      .scroll-icon {
+        position: absolute;
+        bottom: 40px
+      }
+      .scroll-icon__mobile-icon {
+        display: none
+      }
+    }
+
+    .classic-menu__link,
+    .link-button {
+      text-decoration: none
+    }
+
+    .classic-menu {
+      display: none
+    }
+
+    @media (min-width:1024px) {
+      .classic-menu {
+        position: absolute;
+        top: calc(50% - 9px);
+        right: .8789vw
+      }
+    }
+
+    .classic-menu__list {
+      list-style: none;
+      margin: 0
+    }
+
+    .classic-menu__item {
+      font-family: "VerLag Light A", "VerLag Light B", "Century Gothic", Verdana, Arial, sans-serif;
+      background: 0 0;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 1.4px;
+      display: inline-block;
+      margin: 0 .78125vw
+    }
+
+    .classic-menu__link {
+      color: #d89b59
+    }
+
+    .classic-menu__item:last-of-type .classic-menu__link {
+      border: 1px solid #d89b59 !important;
+      border-radius: 0;
+      margin-top: -10px;
+      padding: 9px 17px;
+      color: #d89b59 !important
+    }
+
+    .contact-form__error-message {
+      width: 100%;
+      border-radius: 1.5px;
+      background-color: #d06868;
+      height: 30px;
+      font-size: 16px;
+      letter-spacing: 1.6px;
+      text-align: left;
+      color: #fff;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      margin-top: 5px;
+      position: relative;
+      z-index: 2;
+      line-height: 1.8em;
+      padding-left: 14px
+    }
+
+    .contact-form__error-message::before {
+      background-color: #d06868;
+      content: "\00a0";
+      display: block;
+      height: 11px;
+      position: absolute;
+      top: -4px;
+      -webkit-transform: rotate(119deg) skew(-35deg);
+      transform: rotate(119deg) skew(-35deg);
+      width: 17px;
+      left: 48%;
+      z-index: -1
+    }
+
+    .contact-form__error-message--textarea {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0
+    }
+
+    .contact-form__input-mark {
+      position: absolute;
+      right: 11px;
+      top: 15px;
+      z-index: 10;
+      width: 17.5px;
+      height: 13px
+    }
+
+    .contact-form__action-link {
+      display: none
+    }
+
+    .footer--home .contact-form__error-message {
+      display: none
+    }
+
+    .link-button {
+      font-family: "VerLag Book A", "VerLag Book B", "Century Gothic", Verdana, Arial, sans-serif
+    }
+
+    .link-button {
+      width: 200px;
+      height: 50px;
+      min-height: 50px;
+      background-color: transparent;
+      position: relative;
+      text-transform: uppercase;
+      color: #d89b59;
+      font-size: 16px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      letter-spacing: 1.8px;
+      border-color: #d89b59
+    }
+
+    .link-button__top-left,
+    .link-button__top-right {
+      position: absolute;
+      height: 1px;
+      background-color: #d89b59;
+      top: 0
+    }
+
+    .link-button__top-left {
+      left: 0;
+      width: 50%
+    }
+
+    .link-button__top-right {
+      right: 0;
+      width: 50%
+    }
+
+    .link-button__left,
+    .link-button__right {
+      position: absolute;
+      width: 1px;
+      background-color: #d89b59
+    }
+
+    .link-button__left {
+      top: 0;
+      left: 0;
+      height: 100%
+    }
+
+    .link-button__right {
+      top: 0;
+      right: 0;
+      height: 100%
+    }
+
+    .link-button__bottom-left,
+    .link-button__bottom-right {
+      position: absolute;
+      bottom: 0;
+      height: 1px;
+      width: 50%;
+      background-color: #d89b59
+    }
+
+    .link-button__bottom-left {
+      left: 0
+    }
+
+    .link-button__bottom-right {
+      right: 0
+    }
+
+    @media (max-width:766px) {
+      .header {
+        height: 16.56vw
+      }
+    }
+
+    .header {
+      background-color: #fff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .header {
+        height: 9.33vw
+      }
+    }
+
+    .header--jumbotron {
+      background: 0 0
+    }
+
+    .header--jumbotron .icon-logo path {
+      stroke: #d89b59
+    }
+
+    .header--jumbotron .icon-menu {
+      color: #fff
+    }
+
+    .header--jumbotron li.navigation-menu__item {
+      color: #f0f0f0
+    }
+
+    .header--jumbotron .classic-menu__link {
+      color: #fff
+    }
+
+    .header-container {
+      padding: 0 0 0 15px;
+      height: 64px;
+      width: 100%;
+      opacity: 0
+    }
+
+    @media (min-width:1024px) {
+      .header-container {
+        height: 80px;
+        padding: 0 0 0 30px
+      }
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .header-container {
+        height: 80px;
+        padding: 0 0 0 30px
+      }
+    }
+
+    @media (max-width:766px) {
+      .header li.navigation-menu__item {
+        font-size: 19px
+      }
+      .header-container {
+        padding: 0 0 0 4.7vw;
+        height: 80px
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .header-container {
+        padding: 0 2.64vw;
+        height: 11.2vw
+      }
+    }
+
+    .navigation-menu__container,
+    .navigation-mobile-menu {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal
+    }
+
+    .navigation-menu {
+      float: right;
+      padding: 0;
+      font-family: "VerLag Book A", "VerLag Book B", "Century Gothic", Verdana, Arial, sans-serif;
+      height: 100%
+    }
+
+    .navigation-menu__container {
+      width: 100%;
+      text-align: center;
+      list-style: none;
+      position: fixed;
+      height: calc(100% - 64px);
+      bottom: 0;
+      left: 0;
+      margin: 0 auto;
+      padding: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .navigation-menu__container {
+        width: 100%;
+        height: calc(100% - 100px);
+        margin: 0;
+        padding: 0
+      }
+    }
+
+    @media (min-width:1024px) {
+      .navigation-menu__container {
+        width: 100%;
+        height: calc(100% - 100px);
+        margin: 0;
+        padding: 0
+      }
+    }
+
+    .navigation-menu__menu {
+      list-style: none;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-y: scroll
+    }
+
+    .navigation-menu__menu::-webkit-scrollbar {
+      width: 0;
+      background: 0 0
+    }
+
+    .navigation-menu__item {
+      position: relative;
+      width: 100%;
+      font-family: "VerLag Book A", "VerLag Book B", "Century Gothic", Verdana, Arial, sans-serif;
+      text-decoration: none;
+      letter-spacing: 1.4px;
+      line-height: 1.2;
+      border: none;
+      color: #f4f4f4;
+      font-size: 26px
+    }
+
+    .navigation-menu__item:first-child {
+      margin-top: 0
+    }
+
+    .navigation-menu__item:first-child .link {
+      padding-top: 0
+    }
+
+    @media (max-width:766px) {
+      .navigation-menu__item:first-of-type {
+        margin-top: 3vw
+      }
+    }
+
+    .navigation-menu__item:nth-child(7) {
+      padding-top: 2vh
+    }
+
+    .navigation-menu__item .link {
+      display: block;
+      width: 380px;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 2vh 0;
+      box-sizing: border-box
+    }
+
+    .navigation-menu__item--selected {
+      color: #d89b59
+    }
+
+    .navigation-menu__separate {
+      position: relative;
+      padding-bottom: 2vw
+    }
+
+    .navigation-menu__separate:after {
+      content: '';
+      position: absolute;
+      width: 156px;
+      height: 1px;
+      background-color: #fff;
+      top: auto;
+      bottom: 0;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%)
+    }
+
+    .navigation-menu__btn .link-button {
+      margin: 2vh auto 0;
+      position: relative;
+      width: 333.5px;
+      font-size: 20px;
+      font-weight: 300;
+      letter-spacing: 2px
+    }
+
+    @media (max-width:766px) {
+      .navigation-menu__btn .link-button {
+        width: 260px;
+        font-size: 16px
+      }
+    }
+
+    .navigation-menu__btn .link-button:after {
+      content: '';
+      position: relative;
+      background-image: url(../assets/svg/arrow.svg);
+      background-size: 100%;
+      margin: 0 0 0 10px;
+      background-repeat: no-repeat;
+      display: block;
+      width: 34px;
+      height: 17px
+    }
+
+    @media (max-width:766px) {
+      .navigation-menu__btn .link-button:after {
+        width: 27px;
+        height: 12px;
+        margin: 0 0 0 7px
+      }
+    }
+
+    .navigation-mobile-menu {
+      position: fixed;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background: linear-gradient(45deg, #160c1d 0, #210b1d 100%);
+      width: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+      opacity: 0;
+      backface-visibility: hidden
+    }
+
+    .main-logo-container {
+      width: 225px;
+      height: 100%;
+      float: left;
+      overflow: hidden;
+      margin-left: -5px;
+      padding: 0 5px
+    }
+
+    @media (max-width:766px) {
+      .main-logo-container {
+        width: 51.6vw;
+        height: 20vw
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .main-logo-container {
+        width: 29vw;
+        height: 11.27vw
+      }
+    }
+
+    .logo-link {
+      width: 100%;
+      height: 70%;
+      display: block;
+      position: relative;
+      z-index: 100
+    }
+
+    .icon-logo path {
+      fill: transparent;
+      background: 0 0
+    }
+
+    .logo-text {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding-top: 28px;
+      padding-left: 33px;
+      z-index: -1;
+      letter-spacing: 2.8px;
+      position: relative;
+      font-size: 26px;
+      text-align: center;
+      font-family: "VerLag Book A", "VerLag Book B", "Century Gothic", Verdana, Arial, sans-serif;
+      color: #d89b59;
+      text-transform: uppercase;
+      margin: 0
+    }
+
+    @media (max-width:766px) {
+      .logo-text {
+        font-size: 5.625vw;
+        letter-spacing: .56vw;
+        padding-top: 6.25vw;
+        padding-left: 8.75vw
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .logo-text {
+        font-size: 3.17vw;
+        letter-spacing: .3vw;
+        padding-top: 3.52vw;
+        padding-left: 4.93vw
+      }
+    }
+
+    .logo-text_rand {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0
+    }
+
+    .logo-text__letter,
+    .logo-text__num {
+      position: relative;
+      display: block
+    }
+
+    .logo-text__num {
+      left: 0;
+      top: 0;
+      opacity: 0;
+      letter-spacing: 1.4px;
+      -webkit-transform: translateY(50%);
+      transform: translateY(50%)
+    }
+
+    .icon-logo-position {
+      position: absolute;
+      top: 22px
+    }
+
+    @media (min-width:1024px) {
+      .icon-logo-position {
+        top: 22px;
+        margin-left: -5px
+      }
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .icon-logo-position {
+        top: 22px;
+        margin-left: -5px
+      }
+    }
+
+    @media (max-width:766px) {
+      .icon-logo-position {
+        top: 5vw
+      }
+    }
+
+    .btn-menu-icon {
+      line-height: 44px;
+      position: relative;
+      z-index: 100;
+      border: none;
+      text-decoration: none
+    }
+
+    @media (max-width:766px) {
+      .btn-menu-icon {
+        line-height: 5.625vw;
+        margin-right: 0;
+        padding-top: 3.125vw
+      }
+    }
+
+    @media (max-width:766px) and (orientation:landscape) {
+      .icon-logo-position {
+        top: 2.8vw
+      }
+      .btn-menu-icon {
+        line-height: 3.17vw;
+        margin-right: 0;
+        padding-top: 1.76vw
+      }
+    }
+
+    .subscribe-form__success-message {
+      position: absolute;
+      color: #f4f4f4;
+      padding-left: 60px;
+      margin-top: 5px
+    }
+
+    .subscribe-form__success-icon {
+      position: absolute;
+      margin: 0;
+      left: 20px;
+      width: 21px;
+      height: 21px;
+      fill: #d89b59
+    }
+
+    .subscribe-form__success-message-wrapper {
+      position: relative;
+      width: 100%
+    }
+
+    @media (min-width:767px) {
+      .subscribe-form__success-message-wrapper {
+        position: relative
+      }
+    }
+
+    .hs-error-msgs {
+      color: #de5224;
+      position: absolute;
+      top: 45px;
+      left: 50%;
+      width: 100%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      list-style: none;
+      padding: 0;
+      margin: 0 auto
+    }
+
+    .contact-page__section {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      -webkit-box-direction: normal
+    }
+
+    @media (min-width:1024px) {
+      .contact-page__section {
+        max-width: 510px
+      }
+    }
+
+    .contact-page__subtitle,
+    .contact-page__title {
+      margin-top: 0;
+      font-family: "VerLag Book A", "VerLag Book B", "Century Gothic", Verdana, Arial, sans-serif;
+      font-weight: 400;
+      text-align: center
+    }
+
+    .contact-page__section {
+      display: flex;
+      -webkit-box-orient: vertical;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center
+    }
+
+    .contact-page__section--main {
+      background-color: #faf9f9
+    }
+
+    @media (min-width:1024px) {
+      .contact-page__section--main {
+        height: 100%;
+        max-width: none;
+        min-width: 66.5%;
+        padding: 0 80px 50px;
+        width: calc(100vw - 510px)
+      }
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .contact-page__section--main {
+        padding: 40px 0;
+        width: 100%
+      }
+    }
+
+    @media (max-width:766px) {
+      .contact-page__section--main {
+        padding: 43px 0 41px
+      }
+    }
+
+    .contact-page__section--success {
+      z-index: 10;
+      position: relative
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .contact-page__section--success {
+        height: calc(100vh - 490px);
+        padding: 15px
+      }
+    }
+
+    @media (max-width:766px) {
+      .contact-page__section--success {
+        padding: 70px 10px
+      }
+    }
+
+    .contact-page__section--footer {
+      background: 0 0;
+      width: auto;
+      height: auto
+    }
+
+    .contact-page__title {
+      font-size: 36px;
+      letter-spacing: 3.2px;
+      color: #d89b59;
+      margin-bottom: 17.5px;
+      line-height: 1em
+    }
+
+    @media (max-width:766px) {
+      .contact-page__title {
+        font-size: 24.5px;
+        letter-spacing: 2.5px
+      }
+    }
+
+    .contact-page__subtitle {
+      font-size: 20px;
+      letter-spacing: 2px;
+      color: #7c6d85;
+      line-height: 1.2em;
+      margin-bottom: 28px
+    }
+
+    @media (max-width:766px) {
+      .contact-page__subtitle {
+        font-size: 16px;
+        letter-spacing: 1.6px
+      }
+    }
+
+    .contact-page__subtitle--success {
+      margin-bottom: 35px
+    }
+
+    .contact-page__success-sign {
+      width: 97px;
+      height: 97px;
+      margin-bottom: 32px
+    }
+
+    @media (min-width:767px) and (max-width:1023px) {
+      .contact-page__success-sign {
+        margin-bottom: 10px
+      }
+    }
+  
+  
+  
+  
+    function scrollTo(element, to, duration) {
+      if (duration 
+
+
+ 
+  
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "Distillery",
+      "url": "https://www.distillery.com",
+      "sameAs": [
+        "https://twitter.com/distillerytech",
+        "https://www.instagram.com/distillery_tech/",
+        "https://plus.google.com/+DistilleryTech",
+        "https://www.facebook.com/DistilleryTech"
+      ]
+    }
+     
+  
+    var loadDeferredStyles = function() {
+      var addStylesNode = document.getElementById("deferred-styles");
+      var replacement = document.createElement("div");
+      replacement.innerHTML = addStylesNode.textContent;
+      document.body.appendChild(replacement)
+      addStylesNode.parentElement.removeChild(addStylesNode);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+      webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(function() {
+      window.setTimeout(loadDeferredStyles, 0);
+    });
+    else window.addEventListener('load', loadDeferredStyles);
+  
+  
+    
+    
+      
+        
+                   D   I   S   T   I   L   L   E   R   Y     0   0   0   0   0   0   0   0   0   0             
+        
+        
+        
+           -->
+           Menu Close 
+        
+        
+        
+          
+            
+                Home  
+                Our work  
+                Engineers  
+                Product development  
+                About us  
+                Contact  
+                Blog  
+              
+                
+                  
+                  
+                  
+                  
+                  
+                  
+                  Let's collaborate
+                
+              
+            
+          
+        
+        
+          
+              Our work  
+              Engineers  
+              Product development  
+              About us  
+              Blog  
+              Contact  
+          
+        
+      
+    
+    
+    
+      
+        
+            Distillery is a   Full&minus;service software   Design and development company  
+           We’ve been featured by Apple, built mobile apps with millions of downloads, and have taken startups to large successful exits.   scroll down                 
+        
+          var req = new XMLHttpRequest();
+          var videoSrc = 'https://embed-ssl.wistia.com/deliveries/eaa5d6f24be4e22a988529f9d84c1faa5c2418f7.bin';
+          req.open('GET', videoSrc, true);
+          req.responseType = 'blob';
+          req.send();
+          req.onload = function() {
+            video = document.getElementById('home-video');
+            if (this.status == 200) {
+              var videoBlob = this.response;
+              var vid = URL.createObjectURL(videoBlob);
+              video.src = vid;
+            } else {
+              console.log('something wrong video');
+            }
+          }
+          req.onerror = function() {
+            console.log('error video');
+          }
+        
+        
+           -->  -->  -->           
+      
+    
+    
+    
+      
+      
+        
+          
+            at distillery, we focus on
+            building new and innovative products
+            centered around Mobile and Web Applications
+          
+          
+            
+              
+              
+                 discover 
+                
+                   Research 
+                   Strategy 
+                   Testing 
+                
+              
+            
+            
+              
+              
+                 design 
+                
+                   Branding 
+                   User Experience 
+                   Interface Design 
+                
+              
+            
+            
+              
+              
+                 develop 
+                
+                   iOS/Android Apps 
+                   Web Development 
+                   Engineer Staffing 
+                
+              
+            
+            
+              
+              
+                 grow 
+                
+                   Continued Support 
+                   Security Testing 
+                   Analytics 
+                
+              
+            
+          
+          
+            
+              
+                
+                
+                
+                
+                
+                
+                LEARN ABOUT US
+              
+            
+          
+        
+      
+    
+    
+    
+      
+        
+          
+            
+            
+              
+                
+                      Start-to-finish product development                    from idea through launch and beyond 
+                      Design and build of custom web and
+                    mobile apps to fit any business need 
+                      Strategic support through every step of building your product&nbsp;and&nbsp;business 
+                
+                 Would you like to learn more? 
+                
+                
+                  
+                    
+                    
+                    
+                    
+                    
+                    
+                     CONTACT US 
+                  
+                
+              
+            
+          
+          
+            
+            
+              
+                
+                   We work with 
+                   Startups 
+                   For entrepreneurs who are ready to&nbsp;hit the&nbsp;ground&nbsp;running 
+                    Learn more                        
+                
+              
+            
+          
+          
+            
+            
+              
+                
+                   We work with 
+                   Enterprises 
+                   For companies that want to add speed, expertise, and innovation to&nbsp;their&nbsp;organization 
+                    Learn more                        
+                
+              
+            
+          
+          
+            
+            
+              
+                
+                      Design, UX,
+                    engineering expertise to help you gain competitive edge 
+                      Use our team as an extension of yours to create or improve products 
+                      Add engineers to your team that work in your existing technical stack 
+                
+                 Would you like to learn more? 
+                
+                
+                  
+                    
+                    
+                    
+                    
+                    
+                    
+                     CONTACT US 
+                  
+                
+              
+            
+          
+        
+      
+    
+    
+    
+      
+        
+          
+            
+              
+                
+              
+              
+                
+              
+              
+                
+              
+            
+            
+              
+                
+                  
+                    
+                  
+                  
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                
+              
+            
+          
+          
+            
+              
+                We build software
+                THAT HELPS YOU BUILD BUSINESS SUCCESS
+                
+                  
+                    
+                      
+                      
+                      
+                      
+                      
+                      
+                      EXPLORE OUR WORK
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    
+    
+      
+        
+          
+            
+              
+              
+                 what our clients have to say 
+                
+                  
+                    
+                    
+                       Distillery does excellent work. They are a versatile, professional, trustworthy, and devoted team. These guys know Agile development, including the latest frameworks, and always go above and beyond to deliver the best-quality products.
+                        Very thoughtful group and truly a part of our core team. 
+                      
+                         
+                         CEO / founder of a Silicon Valley based startup 
+                      
+                    
+                  
+                  
+                    
+                    
+                       We’ve been very impressed with the Distillery team and have had the fortune to build close personal relationships with them. You are a bright, strong, hard-working, and dedicated bunch. 
+                      
+                         Eric Lee 
+                         DIRECTOR OF ENGINEERING, SYNCPLICITY 
+                      
+                    
+                  
+                  
+                    
+                    
+                       The project manager and the CEO are responsive, trustworthy, and possess very good communication skills which lead to a sustainable work relationship with them. 
+                      
+                         Eric Saleh 
+                         President & Co-Founder, Circle For Roommates 
+                      
+                    
+                  
+                  
+                    
+                    
+                       As a company, they are very pleasant to work with and are very hospitable. They know how to build relationships with their clients and make sure that everything runs smoothly. Their core strength is that they don’t hire dummies;
+                        they get good people to work with. 
+                      
+                         Daniel James 
+                         Director of Storefront, ScoreBig 
+                      
+                    
+                  
+                  
+                    
+                    
+                       Top-class engineers that challenge your thinking, are passionate about the work you do, and provide advice on solutions for&nbsp;complex&nbsp;problems. 
+                      
+                         Armando Gonzalez 
+                         CTO/Co-Founder, Financial&nbsp;Services 
+                      
+                    
+                  
+                
+                
+                  
+                    
+                    
+                    
+                    
+                    
+                    
+                     CONTACT US 
+                  
+                
+              
+            
+          
+        
+      
+    
+    
+    
+      
+        
+           Let’s&nbsp;connect&nbsp;and&nbsp;see&nbsp;how&nbsp;distillery&nbsp;can&nbsp;help  
+          
+             
+               Name  *  
+               Name                      Please fill out required fields  
+             
+               Email  *  
+               Email                      Please fill out required fields  
+             
+               Phone 
+               Phone                      Please fill out required fields  
+             
+               Would you like to add anything else before we talk?  *  
+               Message                      Please fill out required fields  
+               I want to receive updates from Distillery.               
+            
+              
+              
+              
+              
+              
+              
+               SEND MESSAGE 
+            
+          
+          
+             
+             Your message was sent. 
+             Thank you for your interest with our software development services. We'll be in touch with you soon. 
+            
+              
+              
+              
+              
+              
+              
+               VIEW OUR WORK 
+            
+          
+        
+        
+          
+            
+              
+                 GET UPDATES BY EMAIL 
+                
+                   Thank you for subscribing!     
+                 -->
+                
+                
+                  
+                    
+                        
+                    
+                    
+                        
+                    
+                  
+                   Please enter a valid email address 
+                
+              
+            
+          
+          
+            
+            
+            
+            
+              
+             
+            --> .cls-1,.cls-2{fill:#fff;fill-rule:evenodd}.cls-2{fill:#d89b59}                hello@distillery.com   301 Arizona Ave, Suite&nbsp;#250, Santa&nbsp;Monica, CA&nbsp;90401              (310) 776-6234  
+        
+      
+      
+                                                
+        
+        
+            Home  
+            Our work  
+            Engineers  
+            Product development  
+            About  
+            Blog  
+            Contact  
+        
+        
+        
+           &copy; 2018 Distillery 
+            Privacy policy  
+            Scholarship  
+        
+      
+    
+  
+  
+    function getOtherFontBundle() {
+      var link2 = document.createElement("link");
+      var jumbotronProduct = document.querySelector('.js-jumbotronOther');
+
+      // Fonts(4 fonts) hosted from StepanovMax.ru
+      var fontsProdBig = "https://cloud.typography.com/6745314/7858792/css/fonts.css";
+      var newFont = "https://cloud.typography.com/6745314/7038792/css/fonts.css";
+      var oldFont = "https://cloud.typography.com/6745314/7826372/css/fonts.css";
+
+      link2.href = fontsProdBig;
+      link2.type = "text/css";
+      link2.rel = "stylesheet";
+
+      // console.log(link2.href);
+
+      document.getElementsByTagName("head")[0].appendChild(link2);
+      link2.onload = function() {
+        if (jumbotronProduct) {
+          jumbotronProduct.classList.add('fade-in');
+        }
+      };
+    };
+
+    var jumbotron = document.querySelector('.js-jumbotronHome');
+    var header = document.querySelector('.js-headerContainer');
+    var link = document.createElement("link");
+    var scrollIconText = document.querySelector('.scroll-icon__text');
+
+    // Fonts(1 font) hosted from StepanovMax.ru
+    var fontsProdSingle = "https://cloud.typography.com/6745314/7658792/css/fonts.css";
+    var myHref = "https://cloud.typography.com/6745314/7596792/css/fonts.css";
+    var normalHref = "https://cloud.typography.com/6745314/7324372/css/fonts.css";
+
+    link.href = fontsProdSingle;
+    link.type = "text/css";
+    link.rel = "stylesheet";
+
+    document.getElementsByTagName("head")[0].appendChild(link);
+
+    link.onload = function() {
+      header.classList.add('fade-in');
+
+      if (scrollIconText) {
+        scrollIconText.classList.add('fade-in');
+      }
+
+      if (jumbotron) {
+        setTimeout(function() {
+          // alert('Fonts loaded!');
+          // jumbotron.classList.add('fade-in');
+        }, 300);
+        getOtherFontBundle();
+      } else {
+        header.classList.add('fade-in');
+        if (scrollIconText) {
+          scrollIconText.classList.add('fade-in');
+        }
+        getOtherFontBundle();
+      }
+    };
+  
+  
+ if ( window.location.pathname == '/' ){
+   var file = location.pathname.split( "/" ).pop();
+   var jumbotron = document.querySelector('.js-jumbotronHome');
+
+   var link = document.createElement( "link" );
+   link.href = "https://cloud.typography.com/6745314/7324372/css/fonts.css";
+   link.type = "text/css";
+   link.rel = "stylesheet";
+
+   document.getElementsByTagName( "head" )[0].appendChild( link );
+   link.onload = function () {
+     // jumbotron.classList.add('fade-in');
+
+   };
+
+ } else {
+     // Other page
+   var link2 = document.createElement( "link" );
+   var jumbotronProduct = document.querySelector('.js-jumbotronOther');
+   link2.href = "https://cloud.typography.com/6745314/6639952/css/fonts.css";
+   link2.type = "text/css";
+   link2.rel = "stylesheet";
+   document.getElementsByTagName( "head" )[0].appendChild( link2 );
+     link2.onload = function () {
+     jumbotronProduct.classList.add('fade-in');
+
+   };
+ }
+  -->
+  
+   -->
+  
+   -->
+  
+  
+  
+    // Feature detection: Firefox (it has some specific issues for referencing svg gradients)
+    if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+      window.document.documentElement.classList.add('firefox');
+    }
+  
+  
+  
+    /*  */
+  
+  
+  
+  
+  
+    /*  */
+  
+  
+  
+  
+  
+    /*  */
+  
+  
+  
+  
+  
+    /*  */
+  
+  
+       
+  
+  
+  
+
+
+
