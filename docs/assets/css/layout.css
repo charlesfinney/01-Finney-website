@@ -13,8 +13,7 @@ body {
 }
 
 a {
-	text-decoration: none;
-	/*background-color: rgba(39, 168, 34, 0.06);*/
+	/*text-decoration: none;*/
 }
 
 a:visited {
@@ -36,13 +35,24 @@ address {
 	height: 197px;
 	margin-bottom: 20px;
 }
+
 .zoom {
 	width: 50px;
+}
 
+.minds {
+	width: 15px;
+	height: 15px;
+}
+
+.status {
+	width: 15px;
+	height: 15px;
 }
 
 header > h1,
-section > h1, h2 {
+section > h1,
+h2 {
 	color: #27A822;
 }
 
@@ -51,6 +61,7 @@ header > h1 {
 	font-size: 250%;
 	margin-bottom: 20px;
 }
+
 header > h2 {
 	line-height: 100%;
 	font-size: 140%;
@@ -60,7 +71,7 @@ header > h2 {
 
 .container > header p,
 .container > header address {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .container > header p:last-child {
@@ -94,7 +105,7 @@ article > header > span + span {
 }
 
 article > header > span + span::before {
-	content: '@';
+	content: '-';
 	margin-right: 4px;
 }
 

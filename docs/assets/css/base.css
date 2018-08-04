@@ -255,6 +255,7 @@ small {
 	font-size: 80%;
 }
 
+
 /*	Blockquotes  */
 
 blockquote,
@@ -301,7 +302,7 @@ hr {
 
 a,
 a:visited {
-	color: #333;
+	color: #0052A5;
 	text-decoration: underline;
 	outline: 0;
 }
@@ -379,6 +380,7 @@ ul.large li {
 li p {
 	line-height: 21px;
 }
+
 
 /* #Images
 ================================================== */
@@ -488,6 +490,7 @@ input[type="button"].full-width {
 	text-align: center;
 }
 
+
 /* Fix for odd Mozilla border & padding issues */
 
 button::-moz-focus-inner,
@@ -569,6 +572,7 @@ legend span {
 	font-size: 13px;
 	color: #444;
 }
+
 
 /* #Misc
 ================================================== */
