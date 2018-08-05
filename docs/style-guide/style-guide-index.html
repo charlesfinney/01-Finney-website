@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template no-js">
+
+<head>
+	<meta charset="utf-8">
+	<title>Home – TX.Style Guide</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#0b0c0c">
+	<link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/img/apple-touch-icon-180x180.png">
+	<link rel="apple-touch-icon" sizes="167x167" href="./assets/img/apple-touch-icon-167x167.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./assets/img/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png">
+	<!-- new icons
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" >
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png"> -->
+	<meta name="description" content="Design your service using TX.CRYPTO styles, components and patterns">
+	<meta property="og:image" content="http://159.89.228.6/assets/img/opengraph-image.png">
+	<!--[if !IE 8]><!-->
+	<link href="./assets/css/main-style.css" rel="stylesheet" media="all">
+	<!--<![endif]-->
+	<!--[if lt IE 9]>    <link href="./assets/css/main-ie8.css" rel="stylesheet" media="all">    <script src="./assets/js/ie.js"></script>  <![endif]-->
+	<link rel="canonical" href="http://design-system.service.gov.uk">
+	<script src="./assets/js/modernizr.js"></script>
+
+	<meta property="og:image" content="./assets/img/govuk-opengraph-image.png"> </head>
+
+<body class="govuk-template__body ">
+	<script>
+		document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
+
+	</script> <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
+	<div class="app-pane ">
+		<div class="app-cookie-banner js-cookie-banner">
+			<p class="app-cookie-banner__message">TX.Crypto uses cookies to make the site simpler. <a href="/cookies" class="govuk-link">Find out more about cookies</a></p>
+		</div>
+		<div class="app-pane__header">
+			<header class="app-header" role="banner">
+				<a href="/" class="govuk-link app-header__link"> <span class="app-header__logotype"><image src="./assets/img/TX-Crypto.png" xlink:href="" class="app-header__logotype-crown-fallback-image"></image>      <span class="app-header__logotype-text">        TX.CRYPTO      </span> </span> <span class="app-header__title">      Design System    </span> </a>
+				<div class="app-header-mobile-nav-toggler-wrapper">
+					<button id="app-mobile-nav-toggler" class="govuk-button app-header-mobile-nav-toggler js-app-mobile-nav-toggler"> Menu </button>
+				</div>
+			</header>
+			<div class="govuk-phase-banner govuk-!-padding-left-3 govuk-!-padding-right-3">
+				<p class="govuk-phase-banner__content"><strong class="govuk-tag govuk-phase-banner__content__tag ">  beta</strong> <span class="govuk-phase-banner__text">      This is a new service – your <a class="govuk-link" href="/get-in-touch">feedback</a> will help us to improve it.    </span> </p>
+			</div>
+		</div>
+		<div class="app-pane__nav">
+			<nav class="app-navigation govuk-clearfix">
+				<ul class="app-navigation__list">
+					<li> <a class="govuk-link" href="/get-started" data-topnav="Get started">Get started</a> </li>
+					<li> <a class="govuk-link" href="/styles" data-topnav="Styles">Styles</a> </li>
+					<li> <a class="govuk-link" href="/components" data-topnav="Components">Components</a> </li>
+					<li> <a class="govuk-link" href="/patterns" data-topnav="Patterns">Patterns</a> </li>
+					<li> <a class="govuk-link" href="/community" data-topnav="Community">Community</a> </li>
+				</ul>
+			</nav>
+			<nav id="app-mobile-nav" class="app-mobile-nav js-app-mobile-nav" role="navigation">
+				<ul class="app-mobile-nav__list">
+					<li> <a class="govuk-link js-mobile-nav-subnav-toggler" href="/get-started">Get started</a>
+						<ul class="app-mobile-nav__subnav js-app-mobile-nav-subnav app-mobile-nav__subnav--hidden">
+							<li> <a class="govuk-link" href="/get-started">Get started overview</a> </li>
+							<li>
+								<ul class="app-mobile-nav__theme-nav">
+									<li> <a class="govuk-link" href="/get-started/prototyping">Prototyping</a> </li>
+									<li> <a class="govuk-link" href="/get-started/production">Production</a> </li>
+									<li> <a class="govuk-link" href="/get-started/updating-your-code">Updating your code</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li> <a class="govuk-link js-mobile-nav-subnav-toggler" href="/styles">Styles</a>
+						<ul class="app-mobile-nav__subnav js-app-mobile-nav-subnav app-mobile-nav__subnav--hidden">
+							<li> <a class="govuk-link" href="/styles">Styles overview</a> </li>
+							<li>
+								<ul class="app-mobile-nav__theme-nav">
+									<li> <a class="govuk-link" href="/styles/colour">Colour</a> </li>
+									<li> <a class="govuk-link" href="/styles/images">Images</a> </li>
+									<li> <a class="govuk-link" href="/styles/layout">Layout</a> </li>
+									<li> <a class="govuk-link" href="/styles/page-template">Page template</a> </li>
+									<li> <a class="govuk-link" href="/styles/spacing">Spacing</a> </li>
+									<li> <a class="govuk-link" href="/styles/typography">Typography</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li> <a class="govuk-link js-mobile-nav-subnav-toggler" href="/components">Components</a>
+						<ul class="app-mobile-nav__subnav js-app-mobile-nav-subnav app-mobile-nav__subnav--hidden">
+							<li> <a class="govuk-link" href="/components">Components overview</a> </li>
+							<li>
+								<ul class="app-mobile-nav__theme-nav">
+									<li> <a class="govuk-link" href="/components/back-link">Back link</a> </li>
+									<li> <a class="govuk-link" href="/components/breadcrumbs">Breadcrumbs</a> </li>
+									<li> <a class="govuk-link" href="/components/button">Button</a> </li>
+									<li> <a class="govuk-link" href="/components/checkboxes">Checkboxes</a> </li>
+									<li> <a class="govuk-link" href="/components/date-input">Date input</a> </li>
+									<li> <a class="govuk-link" href="/components/details">Details</a> </li>
+									<li> <a class="govuk-link" href="/components/error-message">Error message</a> </li>
+									<li> <a class="govuk-link" href="/components/error-summary">Error summary</a> </li>
+									<li> <a class="govuk-link" href="/components/fieldset">Fieldset</a> </li>
+									<li> <a class="govuk-link" href="/components/file-upload">File upload</a> </li>
+									<li> <a class="govuk-link" href="/components/footer">Footer</a> </li>
+									<li> <a class="govuk-link" href="/components/header">Header</a> </li>
+									<li> <a class="govuk-link" href="/components/inset-text">Inset text</a> </li>
+									<li> <a class="govuk-link" href="/components/panel">Panel</a> </li>
+									<li> <a class="govuk-link" href="/components/phase-banner">Phase banner</a> </li>
+									<li> <a class="govuk-link" href="/components/radios">Radios</a> </li>
+									<li> <a class="govuk-link" href="/components/select">Select</a> </li>
+									<li> <a class="govuk-link" href="/components/skip-link">Skip link</a> </li>
+									<li> <a class="govuk-link" href="/components/table">Table</a> </li>
+									<li> <a class="govuk-link" href="/components/tabs">Tabs</a> </li>
+									<li> <a class="govuk-link" href="/components/tag">Tag</a> </li>
+									<li> <a class="govuk-link" href="/components/text-input">Text input</a> </li>
+									<li> <a class="govuk-link" href="/components/textarea">Textarea</a> </li>
+									<li> <a class="govuk-link" href="/components/warning-text">Warning text</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li> <a class="govuk-link js-mobile-nav-subnav-toggler" href="/patterns">Patterns</a>
+						<ul class="app-mobile-nav__subnav js-app-mobile-nav-subnav app-mobile-nav__subnav--hidden">
+							<li> <a class="govuk-link" href="/patterns">Patterns overview</a> </li>
+							<li>
+								<h4 class="app-mobile-nav__theme">Ask users for...</h4>
+								<ul class="app-mobile-nav__theme-nav">
+									<li> <a class="govuk-link" href="/patterns/addresses">Addresses</a> </li>
+									<li> <a class="govuk-link" href="/patterns/dates">Dates</a> </li>
+									<li> <a class="govuk-link" href="/patterns/email-addresses">Email addresses</a> </li>
+									<li> <a class="govuk-link" href="/patterns/gender-or-sex">Gender or sex</a> </li>
+									<li> <a class="govuk-link" href="/patterns/names">Names</a> </li>
+									<li> <a class="govuk-link" href="/patterns/national-insurance-numbers">National Insurance numbers</a> </li>
+									<li> <a class="govuk-link" href="/patterns/passwords">Passwords</a> </li>
+									<li> <a class="govuk-link" href="/patterns/telephone-numbers">Telephone numbers</a> </li>
+								</ul>
+							</li>
+							<li>
+								<h4 class="app-mobile-nav__theme">Help users to...</h4>
+								<ul class="app-mobile-nav__theme-nav">
+									<li> <a class="govuk-link" href="/patterns/check-a-service-is-suitable">Check a service is suitable</a> </li>
+									<li> <a class="govuk-link" href="/patterns/check-answers">Check answers</a> </li>
+									<li> <a class="govuk-link" href="/patterns/confirm-an-email-address">Confirm an email address</a> </li>
+									<li> <a class="govuk-link" href="/patterns/create-a-username">Create a username</a> </li>
+									<li> <a class="govuk-link" href="/patterns/create-accounts">Create accounts</a> </li>
+								</ul>
+							</li>
+							<li>
+								<h4 class="app-mobile-nav__theme">Pages</h4>
+								<ul class="app-mobile-nav__theme-nav">
+									<li> <a class="govuk-link" href="/patterns/confirmation-pages">Confirmation pages</a> </li>
+									<li> <a class="govuk-link" href="/patterns/page-not-found-pages">Page not found pages</a> </li>
+									<li> <a class="govuk-link" href="/patterns/problem-with-the-service-pages">There is a problem with the service pages</a> </li>
+									<li> <a class="govuk-link" href="/patterns/question-pages">Question pages</a> </li>
+									<li> <a class="govuk-link" href="/patterns/service-unavailable-pages">Service unavailable pages</a> </li>
+									<li> <a class="govuk-link" href="/patterns/start-pages">Start pages</a> </li>
+									<li> <a class="govuk-link" href="/patterns/task-list-pages">Task list pages</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li> <a class="govuk-link js-mobile-nav-subnav-toggler" href="/community">Community</a>
+						<ul class="app-mobile-nav__subnav js-app-mobile-nav-subnav app-mobile-nav__subnav--hidden">
+							<li> <a class="govuk-link" href="/community">Community overview</a> </li>
+							<li>
+								<ul class="app-mobile-nav__theme-nav">
+									<li> <a class="govuk-link" href="/community/backlog">Backlog</a> </li>
+									<li> <a class="govuk-link" href="/community/how-you-can-contribute">How you can contribute</a> </li>
+									<li> <a class="govuk-link" href="/community/contribution-criteria">Contribution criteria</a> </li>
+									<li> <a class="govuk-link" href="/community/design-system-working-group">Design System working group</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="app-pane__content">
+			<main id="content" role="main">
+				<div class="app-masthead">
+					<div class="govuk-width-container app-site-width-container">
+						<div class="govuk-grid-row">
+							<div class="govuk-grid-column-two-thirds">
+								<h1 class="govuk-heading-xl app-masthead__title">Design your service using TX.CRYPTO styles, components and&nbsp;patterns</h1>
+								<p class="app-masthead__description">Use this design system to make your service consistent with TX.CRYPTO. Learn from the research and experience of other service teams and avoid repeating work that’s already been done.</p> <a href="/get-started" role="button" class="govuk-button govuk-button--start govuk-!-margin-top-2 govuk-!-margin-bottom-8">  Get started</a> </div>
+						</div>
+					</div>
+				</div>
+				<div class="govuk-width-container app-site-width-container">
+					<div class="govuk-main-wrapper govuk-main-wrapper--l">
+						<div class="govuk-grid-row">
+							<div class="govuk-grid-column-one-third govuk-!-margin-bottom-8">
+								<h2 class="govuk-heading-l govuk-!-font-weight-bold">Styles</h2>
+								<p class="govuk-body">Make your service look like TX.CRYPTO with guides for applying layout, typography, colour and&nbsp;images.</p>
+								<p class="govuk-body govuk-!-margin-bottom-0"><a href="/styles/" class="govuk-link govuk-!-font-weight-bold">Browse styles</a></p>
+							</div>
+							<div class="govuk-grid-column-one-third govuk-!-margin-bottom-8">
+								<h2 class="govuk-heading-l">Components</h2>
+								<p class="govuk-body">Save time with reusable, accessible components for forms, navigation, panels, tables and&nbsp;more.</p>
+								<p class="govuk-body govuk-!-margin-bottom-0"><a href="/components/" class="govuk-link govuk-!-font-weight-bold">Browse components</a></p>
+							</div>
+							<div class="govuk-grid-column-one-third govuk-!-margin-bottom-8">
+								<h2 class="govuk-heading-l">Patterns</h2>
+								<p class="govuk-body">Help users complete common tasks like entering names and addresses, filling in forms and creating accounts.</p>
+								<p class="govuk-body govuk-!-margin-bottom-0"><a href="/patterns/" class="govuk-link govuk-!-font-weight-bold">Browse patterns</a></p>
+							</div>
+							<div class="govuk-grid-column-full">
+								<hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl govuk-!-margin-top-0"> </div>
+							<div class="govuk-grid-column-two-thirds">
+								<h2 id="community" class="govuk-heading-l">Community</h2>
+								<p class="govuk-body"> The TX.CRYPTO Design System is for everyone, with a strong community sitting behind it. It brings together the latest research, design and development from across government to make sure it’s representative and relevant for its users.</p>
+								<p class="govuk-body"> Find out <a href="/community/how-you-can-contribute" class="govuk-link" data-hcontribute="guidelinegh">how to contribute</a>, or see what people are currently working on in the <a href="/community/backlog" class="govuk-link" data-hcontribute="guidelinegh">community backlog</a> </p>
+								<p class="govuk-body govuk-!-margin-bottom-0"> You can also learn how the cross-government <a class="govuk-link" href="/community/design-system-working-group" data-hcontribute="backloggb">Design System working group </a>helps to quality assure the components and patterns you’ll find here. </p>
+							</div>
+							<div class="govuk-grid-column-full">
+								<hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl"> </div>
+							<div class="govuk-grid-column-two-thirds">
+								<h2 id="support" class="govuk-heading-l">Support</h2>
+								<p class="govuk-body"> The TX.CRYPTO Design System is maintained by the Government Digital Service. If you’ve got a question, idea or suggestion you can: </p>
+								<ul class="govuk-list govuk-list--bullet govuk-!-margin-bottom-0">
+									<li> email <a href="mailto:govuk-design-system-support@digital.cabinet-office.gov.uk" class="govuk-link" data-hsupport="email">            govuk-design-system-support@digital.cabinet-office.gov.uk          </a> </li>
+									<li> <a href="https://ukgovernmentdigital.slack.com/messages/govuk-design-system" class="govuk-link" data-hsupport="slack">            get in touch on Slack</a> (<a class="govuk-link" href="slack://channel?team=T04V6EBTR&amp;id=C6DMEH5R6" data-hsupport="slackapp">open in app</a>) </li>
+								</ul>
+							</div>
+							<div class="govuk-grid-column-full">
+								<hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl"> </div>
+							<div class="govuk-grid-column-two-thirds govuk-!-mb-r4">
+								<h2 class="govuk-heading-l">Roadmap</h2>
+								<p class="govuk-body"> See what the Design System team at GDS is planning to work on over the coming year in the <a href="/roadmap" class="govuk-link" data-hcontribute="guidelinegh"> TX.CRYPTO Design System Roadmap</a>. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="govuk-footer " id="footer" role="contentinfo">
+				<div class="govuk-width-container ">
+					<div class="footer-categories">
+						<div class="footer-about">
+							<h2><a id="services">Crypto ATMs &amp; Services</a>
+							</h2>
+							<ul>
+								<li><a class="govuk-footer__link" href="#">ATM Near Me</a></li>
+								<li><a class="govuk-footer__link" href="#">Stores</a></li>
+								<li><a class="govuk-footer__link" href="#">Restaurants</a></li>
+								<li><a class="govuk-footer__link" href="#">Things to do</a></li>
+								<li><a class="govuk-footer__link" href="#">Hotels</a></li>
+								<li><a class="govuk-footer__link" href="#">Hostels</a></li>
+								<li><a class="govuk-footer__link" href="#">Vacation Rentals</a></li>
+								<li><a class="govuk-footer__link" href="#">Flights</a></li>
+								<li><a class="govuk-footer__link" href="#">ATM Near Me</a></li>
+								<li><a class="govuk-footer__link" href="#">ATM Near Me</a></li>
+								<li><a class="govuk-footer__link" href="#">Road trips</a></li>
+								<li><a class="govuk-footer__link" href="#">Best of 2018</a></li>
+							</ul>
+						</div>
+						<div class="footer-buyers">
+							<h2>
+								<a id="events">Crypto Events</a>
+							</h2>
+							<ul>
+								<li><a class="govuk-footer__link" href="#">Sections</a></li>
+								<li><a class="govuk-footer__link" href="#">Cities</a></li>
+								<li><a class="govuk-footer__link" href="#">near me</a></li>
+								<li><a class="govuk-footer__link" href="#">G-Cloud supplier A–Z</a></li>
+								<li><a class="govuk-footer__link" href="#">Hosting framework</a></li>
+								<li><a class="govuk-footer__link" href="#">Commercial Service</a></li>
+							</ul>
+						</div>
+						<div class="footer-suppliers">
+							<h2>
+								<a id="people">Crypto swipe</a>
+							</h2>
+							<ul>
+								<li><a class="govuk-footer__link" href="#">WELCOME</a></li>
+								<li><a class="govuk-footer__link" href="#">ABOUT</a></li>
+								<li><a class="govuk-footer__link" href="#">MINDSET</a></li>
+								<li><a class="govuk-footer__link" href="#">USER STORIES</a></li>
+								<li><a class="govuk-footer__link" href="#">TEAM</a></li>
+								<li><a class="govuk-footer__link" href="#">CONTACT US</a></li>
+								<li><a class="govuk-footer__link" href="#">SUPPORT</a></li>
+								<li><a class="govuk-footer__link" href="#">VLOG</a></li>
+								<li><a class="govuk-footer__link" href="h#">COMMUNITIES</a></li>
+								<li><a class="govuk-footer__link" href="#">MEET FINNEY</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<footer class="govuk-footer " role="contentinfo">
+				<div class="govuk-width-container ">
+					<div class="govuk-footer__meta">
+						<div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+							<h2 class="govuk-visually-hidden"><a id="team">Team</a></h2>
+							<ul class="govuk-footer__inline-list">
+								<li class="govuk-footer__inline-list-item"><a class="govuk-footer__link" href="https://github.com/shkeletor">
+		                  Anatoly Bourov
+		               </a></li><img class="avatar" src="assets/img/shkeletor-thumbnail.jpg" width="32" height="32" alt="@shkeletor">
+								<li class="govuk-footer__inline-list-item">
+									<a class="govuk-footer__link" href="https://github.com/charlesfinney"><img src="./assets/img/finney-thumbnail.png" width="32" height="32" alt="@Finney"> Charles Finney</a>
+								</li>
+								<li class="govuk-footer__inline-list-item">
+									<a class="govuk-footer__link" href="https://github.com/troosey"><img src="./assets/img/troosey-thumbnail.png" width="32" height="32" alt="@troosey"> Tim Roosevelt</a>
+								</li>
+								<li class="govuk-footer__inline-list-item"><img class="avatar" src="./assets/img/star-thumbnail.gif" width="32" height="32" alt="@star"><a class="govuk-footer__link" href="#4">
+		                  Contact
+		               </a></li>
+							</ul><img src="./assets/img/88px-License_icon-mit-88x31-2.svg.png" class="govuk-footer__licence-logo" />
+							<!--Footer Crest  --><span class="govuk-footer__licence-description">
+		          All content is available under the
+		         <a class="govuk-footer__link" href="https://choosealicense.com/licenses/mit/" rel="license">MIT Licence</a>, except where otherwise stated
+		       </span></div>
+						<div class="govuk-footer__meta-item">
+							<a class="govuk-footer__link govuk-footer__copyright-logo" href="https://gitlab.com/charlesfinney"><img src="assets/img/gitlab-logo.png" width="16px" alt="GitLab logo">&nbsp;GitLab Link</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script src="./assets/js/iframeResizer.contentWindow.js"></script>
+	<script src="./assets/js/frontend.js"></script>
+	<script src="/javascripts/govuk-frontend.js"></script>
+	<script src="./assets/js/surveys.js"></script>
+</body>
+
+</html>
