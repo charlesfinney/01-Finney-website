@@ -191,9 +191,11 @@ h6 a {
 }
 
 h1 {
-	font-size: 46px;
-	line-height: 50px;
-	margin-bottom: 14px;
+	font-size: 112%;
+font-weight: bold;
+line-height: 150%;
+margin-bottom: 0;
+color: inherit;
 }
 
 h2 {

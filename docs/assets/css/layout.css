@@ -51,8 +51,7 @@ address {
 }
 
 header > h1,
-section > h1,
-h2 {
+section > h1 {
 	color: #27A822;
 }
 
@@ -63,9 +62,11 @@ header > h1 {
 }
 
 header > h2 {
-	line-height: 100%;
-	font-size: 140%;
-	margin-bottom: 20px;
+	font-size: 112%;
+	font-weight: bold;
+	line-height: 150%;
+	margin-bottom: 0;
+	color: inherit;
 	text-transform: uppercase;
 }
 
